@@ -1,0 +1,7 @@
+.hover-downscale:hover {
+  transform: scale(0.7, 0.7);
+}
+
+.hover-downscale {
+  transition: transform 0.5s;
+}

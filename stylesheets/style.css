@@ -1,0 +1,143 @@
+#skin-preview {
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  outline: 5px solid white;
+}
+
+#navbar-itemlist {
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+#username-search * > {
+  float: left;
+}
+
+#username-search-button {
+  height: 50px;
+  color: white;
+}
+
+#username-search-button:hover {
+  color: darkgray !important;
+}
+
+#playerstats-loading {
+  position: absolute;
+  top: 1%;
+  left: 30%;
+  padding-top: 100px
+}
+
+#username-input {
+  width: 400px;
+  height: 50px;
+  border-color: white !important;
+  color: white !important;
+  background-color: #181a1b;
+}
+
+.boosters {
+  height: 45px;
+}
+
+.boosters > * {
+  float: left;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: black;
+}
+
+.navbarbutton {
+  color: white;
+}
+
+#content {
+  margin: 15px;
+}
+
+.status, #status-code, #stat-box {
+  float: left;
+}
+
+.status-box {
+  float: unset;
+}
+
+#no-boosters-active {
+  margin-top: 0px !important;
+}
+
+.booster-level, #status-code, .stats-value {
+  margin-left: 15px;
+}
+
+#no-stats {
+  width: 80%;
+}
+
+#rank {
+  width: 225px;
+  margin-top: 225px;
+  position: absolute;
+  text-align: center;
+}
+
+.stats {
+  clear: both;
+}
+
+.stats > * {
+    float: left;
+}
+
+#description {
+  margin-left: 250px;
+  margin-top: 25px;
+}
+
+#boosters {
+  width: max-content;
+  margin-left: 100px;
+}
+
+p, pre {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p, h1, h2, h3, h4, a, pre, code {
+  color: white !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151515;
+}

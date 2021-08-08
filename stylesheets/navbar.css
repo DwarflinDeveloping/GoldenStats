@@ -1,0 +1,11 @@
+.navbarbutton {
+  font-size: 30px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.navbarbutton:hover {
+  color: darkgray;
+  font-size: 30px;
+}

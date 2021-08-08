@@ -1,0 +1,49 @@
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spielerstats – GoldenStats</title>
+        <link rel="stylesheet" type="text/css" href="stylesheets/animations.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+        <script src="stats.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="username-search">
+                <input type="text" id="username-input" spellcheck="false" maxlength="16" size="50" placeholder="Spielernamen eingeben">
+                <input id="username-search-button" class="navbarbutton" value="Suchen" type="button" onclick="show_playerstats();">
+            </div>
+            <img src="loading.gif" class="loading" id="playerstats-loading" hidden>
+            <!-- https://minotar.net/helm/dwarflin/1024.png -->
+            <div id="stats">
+                <img id="skin-preview" src="goldenarmy_logo.png">
+                <p id="rank"></p>
+                <div id="description">
+                    <p hidden id="no-stats">Diese*r Spieler*in war entweder noch nie auf GoldenArmy.de, oder hat alle Stats auf privat gestellt.</p>
+                    <p id="not-selected">Bitte gebe oben den Namen der Person ein, deren Stats du sehen möchtest.</p>
+                    <div class="stats" hidden>
+                        <p>Nutzername: </p><pre class="stats-value" id="username"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Spielzeit: </p><pre class="stats-value" id="spielzeit"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Erfahrungs-Level: </p><pre class="stats-value" id="level"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Kontostand: </p><pre class="stats-value" id="kontostand"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Clan: </p><pre class="stats-value" id="clan"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Auktionen: </p><pre class="stats-value" id="ahangebote"></pre>
+                    </div>
+                    <div class="stats" hidden>
+                        <p>Badge: </p><pre class="stats-value" id="badge"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
