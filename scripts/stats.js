@@ -16,7 +16,7 @@ function get_api_page_url(username)
 
 function get_profile_picture_url(username)
 {
-    const proxy = "https://minotar.net/bust/";
+    const proxy = "https://minotar.net/armor/bust/";
     const ending = "/1024.png";
     const url = ( proxy + username + ending);
     return url
@@ -184,6 +184,15 @@ function show_boosters()
     hide_loading_spin();
 }
 
+
+function refresh_boosters()
+{
+    document.getElementById("refresh").classList.add("spin-360");
+    show_boosters();
+    setTimeout(function(){
+        document.getElementById("refresh").classList.remove("spin-360");
+    },500);
+}
 
 
 function show_playerstats()

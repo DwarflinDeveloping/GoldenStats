@@ -2,7 +2,8 @@
   position: absolute;
   width: 225px;
   height: 225px;
-  outline: 5px solid white;
+  outline: 1px solid white;
+  background: linear-gradient(#111111, #111122, #111222, #112222);
 }
 
 #navbar-itemlist {
@@ -14,17 +15,19 @@
   border-radius: 12px;
 }
 
-#username-search * > {
+#username-search > * {
   float: left;
 }
 
-#username-search-button {
-  height: 50px;
-  color: white;
+#username-search {
+  height: 40px;
+  clear: both;
 }
 
-#username-search-button:hover {
-  color: darkgray !important;
+#username-search-button {
+  margin-left: 10px;
+  height: 50px;
+  color: white;
 }
 
 #playerstats-loading {
@@ -101,12 +104,22 @@ li a:hover {
   font-family: 'Noto Sans', sans-serif;
 }
 
+#refresh {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
+
 .stats {
   clear: both;
 }
 
 .stats > * {
     float: left;
+}
+
+#stats {
+  clear: both;
 }
 
 #description {
