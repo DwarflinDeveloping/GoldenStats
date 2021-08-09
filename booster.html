@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
     <head>
         <meta charset="UTF-8">
@@ -5,34 +6,36 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/animations.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-        <script src="stats.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <script src="scripts/stats.js"></script>
     </head>
     <body onload="show_boosters();">
         <div id="content">
-            <img src="loading.gif" class="loading" id="playerstats-loading" hidden>
+            <img src="assets/loading.gif" class="loading" id="playerstats-loading" hidden>
             <p hidden id="boosters-active">Aktuell sind folgende Booster aktiv:</p>
             <p id="no-boosters-active">Aktuell sind leider keine Booster aktiv</p>
             <div id="boosters">
                 <div hidden class="boosters">
-                    <p id="tauchenboost">Tauchen-Booster: Level <pre class="booster-level" id="tauchenboost-level">0</pre></p>
+                    <p id="tauchenboost">Tauchen-Booster: Level </p><pre class="booster-level" id="tauchenboost-level">0</pre>
                 </div>
                 <div hidden class="boosters">
-                    <p id="xpboost">XP-Booster: Level <pre class="booster-level" id="xpboost-level">0</pre></p>
+                    <p id="xpboost">XP-Booster: Level </p><pre class="booster-level" id="xpboost-level">0</pre>
                 </div>
                 <div class="boosters">
-                    <p id="dropboost">Drop-Booster: Level <pre class="booster-level" id="dropboost-level">0</pre></p>
+                    <p id="dropboost">Drop-Booster: Level </p><pre class="booster-level" id="dropboost-level">0</pre>
                 </div>
                 <div class="boosters">
-                    <p id="villagerboost">Villager-Booster: Level <pre class="booster-level" id="villagerboost-level">0</pre></p>
+                    <p id="villagerboost">Villager-Booster: Level </p><pre class="booster-level" id="villagerboost-level">0</pre>
                 </div>
                 <div class="boosters">
-                    <p id="flyboost">Fliegen-Booster: Level <pre class="booster-level" id="flyboost-level">0</pre></p>
+                    <p id="flyboost">Fliegen-Booster: Level </p><pre class="booster-level" id="flyboost-level">0</pre>
                 </div>
                 <div class="boosters">
-                    <p id="breakboost">Break-Booster: Level <pre class="booster-level" id="breakboost-level">0</pre></p>
+                    <p id="breakboost">Break-Booster: Level </p><pre class="booster-level" id="breakboost-level">0</pre>
                 </div>
                 <div class="boosters">
-                    <p id="drunkboost">Betrunken-Booster: Level <pre class="booster-level" id="drunkboost-level">0</pre></p>
+                    <p id="drunkboost">Betrunken-Booster: Level </p><pre class="booster-level" id="drunkboost-level">0</pre>
                 </div>
             </div>
         </div>

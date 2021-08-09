@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="de">
     <head>
         <meta charset="UTF-8">
@@ -5,7 +6,9 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/animations.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css">
         <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-        <script src="stats.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <script src="scripts/stats.js"></script>
     </head>
     <body>
         <div id="content">
@@ -13,10 +16,10 @@
                 <input type="text" id="username-input" spellcheck="false" maxlength="16" size="50" placeholder="Spielernamen eingeben">
                 <input id="username-search-button" class="navbarbutton" value="Suchen" type="button" onclick="show_playerstats();">
             </div>
-            <img src="loading.gif" class="loading" id="playerstats-loading" hidden>
+            <img src="assets/loading.gif" class="loading" id="playerstats-loading" hidden>
             <!-- https://minotar.net/helm/dwarflin/1024.png -->
             <div id="stats">
-                <img id="skin-preview" src="goldenarmy_logo.png">
+                <img id="skin-preview" src="assets/goldenarmy_logo.png">
                 <p id="rank"></p>
                 <div id="description">
                     <p hidden id="no-stats">Diese*r Spieler*in war entweder noch nie auf GoldenArmy.de, oder hat alle Stats auf privat gestellt.</p>
