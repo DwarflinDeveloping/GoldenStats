@@ -1,8 +1,9 @@
 #skin-preview {
+  border-radius: .5rem;
   position: absolute;
   width: 225px;
   height: 225px;
-  outline: 1px solid white;
+  outline: 2.5px solid rgb(48, 52, 54) !important;
   background: linear-gradient(#111111, #111122, #111222, #112222);
 }
 
@@ -40,7 +41,8 @@
 #username-input {
   width: 400px;
   height: 50px;
-  border-color: white !important;
+  border-radius: .5rem;
+  border-color: rgb(48, 52, 54) !important;
   color: white !important;
   background-color: #181a1b;
 }
@@ -144,6 +146,10 @@ h1 {
   font-size: 50px;
 }
 
+pre, code {
+  font-family: 'Source Code Pro', monospace;
+}
+
 p, h1, h2, h3, h4, a {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -157,5 +163,5 @@ html {
 }
 
 body {
-  background-color: #151515;
+  background-color: #131516;
 }
