@@ -137,7 +137,7 @@ function set_stats_values(stats)
     document.getElementById("no-stats").hidden = false;
     hide_stats();
     for ( stat in stats ) {
-        if ( document.getElementById(stat) != null ) {
+        if ( (document.getElementById(stat) != null ) && ( stats[stat] != "versteckt" ) ) {
             document.getElementById(stat).parentElement.hidden = false;
             document.getElementById("no-stats").hidden = true;
             document.getElementById(stat).innerHTML = stats[stat];
